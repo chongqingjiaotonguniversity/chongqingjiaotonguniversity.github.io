@@ -1,0 +1,76 @@
+.footer{
+    background-image: url("../images/footer/bg.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/footer/bg.png*/;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 40px;
+    padding: 15px 10px;
+}
+.footer table{
+    width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.footer h1{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.footer p{
+    line-height: 24px;
+    font-size: 14px;
+}
+.footer span{
+    font-size: 14px;
+}
+
+.footer .logo{
+    width: 480px;
+    float: left;
+    line-height: 136px;
+}
+.footer .logo img{
+    height: 100px;
+}
+.footer .copyright{
+    float: left;
+}
+
+@media all and (max-width:1100px){
+    .footer table{
+        width: 100%;
+    }
+}
+@media all and (max-width:800px){
+    .footer .logo{
+        width: 50%;
+    }
+    .footer .logo img{
+        width: 90%;
+    }
+}
+@media all and (max-width:500px){
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer .logo{
+        line-height: inherit;
+        margin-bottom: 20px;
+        display: none;
+    }
+    .footer .logo img{
+        width: auto;
+        height: 50px;
+    }
+    .footer h1{
+        font-size: 18px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+
+}
+
+
+

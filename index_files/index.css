@@ -1,0 +1,690 @@
+body{
+    background-image: url("../images/index/three_bg.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/three_bg.png*/;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+}
+
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+.fullwidthbanner-container{
+    width:100% !important;
+    position:relative;
+    padding:0;
+    max-height:400px !important;
+    overflow:hidden;
+}
+
+.fullwidthbanner-container .fullwidthabnner	{
+    width:100% !important;
+    max-height:400px !important;
+    position:relative;
+}
+
+/*@media only screen and (min-width: 768px) and (max-width: 959px) {*/
+/*.banner, .bannercontainer			{	width:768px; height:309px;}*/
+/*}*/
+
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {*/
+/*.banner, .bannercontainer		{	width:480px; height:193px;	}*/
+/*}*/
+
+/*@media only screen and (min-width: 320px) and (max-width: 479px) {*/
+/*.banner, .bannercontainer		{	width:320px;height:129px;	}*/
+/*}*/
+
+/*@media only screen and (max-width: 319px) {*/
+/*.banner, .bannercontainer		{	width:240px;height:97px;	}*/
+/*}*/
+
+.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.navbar .bullet:hover,
+.tp-bullets.simplebullets.navbar .bullet.selected {
+    background:#004b9d !important;
+}
+.tp-leftarrow:hover,
+.tp-rightarrow:hover {
+    background-color:#004b9d !important;
+}
+/** BULLETS **/
+.tp-bullets {
+    z-index: 1001;
+    position: absolute;
+    bottom: 0px;
+    display: none;
+}
+
+.tp-bullets.simplebullets.round .bullet {
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    width: 188px;
+    height: 6px;
+    float: left;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: color, background 0.1s linear;
+    -o-transition: color, background 0.1s linear;
+    transition: color, background 0.1s linear;
+}
+
+
+.tp-leftarrow.large {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: #393939 url(../images/index/slider-left-arrow.png)/*tpa=http://yjszs.cqjtu.edu.cn/images/index/slider-left-arrow.png*/ no-Repeat;
+    width: 42px;
+    height: 43px;
+    margin-left: 0px;
+    margin-top: -21px;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: color, background 0.1s linear;
+    -o-transition: color, background 0.1s linear;
+    transition: color, background 0.1s linear;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);/*增加阴影*/
+    /*
+    **打开注释，按钮变成圆形的
+    border-radius: 20px;  所有角都使用半径为5px的圆角，此属性为CSS3标准属性
+    -moz-border-radius: 20px;  Mozilla浏览器的私有属性
+    -webkit-border-radius: 20px;  Webkit浏览器的私有属性
+    border-radius: 20px 20px 20px 20px; 四个半径值分别是左上角、右上角、右下角和左下角
+    */
+}
+
+.tp-rightarrow.large {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: #393939 url(../images/index/slider-right-arrow.png)/*tpa=http://yjszs.cqjtu.edu.cn/images/index/slider-right-arrow.png*/ no-Repeat 0 0;
+    width: 42px;
+    height: 43px;
+    margin-left: 0;
+    margin-top: -21px;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: color, background 0.1s linear;
+    -o-transition: color, background 0.1s linear;
+    transition: color, background 0.1s linear;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);/*增加阴影*/
+    /*
+    **打开注释，按钮变成圆形的
+    border-radius: 20px;  所有角都使用半径为5px的圆角，此属性为CSS3标准属性
+    -moz-border-radius: 20px;  Mozilla浏览器的私有属性
+    -webkit-border-radius: 20px;  Webkit浏览器的私有属性
+    border-radius: 20px 20px 20px 20px; 四个半径值分别是左上角、右上角、右下角和左下角
+    */
+}
+
+
+
+.tp-bullets.tp-thumbs {
+    z-index: 100;
+    position: absolute;
+    padding: 3px;
+    background-color: #fff;
+    width: 500px;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.fullwidthbanner-container .tp-thumbs {
+    padding: 3px;
+}
+
+.tp-bullets.tp-thumbs .tp-mask {
+    width: 500px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
+    width: 5000px;
+    position: absolute;
+}
+
+.tp-bullets.tp-thumbs .bullet {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    background: none;
+    margin: 0;
+    float: left;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /*filter: alpha(opacity=50);	*/
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+
+.tp-bullets.tp-thumbs .bullet:hover,
+.tp-bullets.tp-thumbs .bullet.selected {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.tp-thumbs img {
+    width: 100%;
+}
+
+.tp-bannertimer {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    z-index: 200;
+    z-index: 5000;
+}
+
+.tp-bannertimer.tp-bottom {
+    bottom: 0px !important;
+    height: 5px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .responsive .tp-bullets.tp-thumbs {
+        width: 300px !important;
+        height: 30px !important;
+    }
+
+    .responsive .tp-bullets.tp-thumbs .tp-mask {
+        width: 300px !important;
+        height: 30px !important;
+    }
+
+    .responsive .tp-bullets.tp-thumbs .bullet {
+        width: 60px !important;
+        height: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+    .responsive .tp-bullets {
+        display: none;
+    }
+
+    .responsive .tparrows {
+        display: none;
+    }
+}
+
+
+.tp-simpleresponsive img {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.tp-simpleresponsive a {
+    text-decoration: none;
+}
+
+.tp-simpleresponsive ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tp-simpleresponsive >ul >li {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+}
+.tp-simpleresponsive >ul >li div{
+    width: 100%;
+    position: relative;
+}
+
+.caption.slidelink a div,
+.tp-caption.slidelink a div {
+    width: 10000px;
+    height: 10000px;
+}
+
+.tp-loader {
+    background: url(../images/index/loader.gif)/*tpa=http://yjszs.cqjtu.edu.cn/images/index/loader.gif*/ no-repeat 10px 10px;
+    background-color: #fff;
+    margin: -22px -22px;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+
+
+/*main*/
+.main .one,.main .two{
+    overflow: hidden;
+}
+.main dl{
+    width: 380px;
+    background-color: #ffffff;
+}
+.main dt{
+    font-size: 20px;
+    color: #333333;
+    overflow: hidden;
+}
+.main dt span{
+    display: inline-block;
+    float: left;
+}
+.main dt a{
+    font-size: 16px;
+    color: #004b9d;
+    float: right;
+}
+.main dl dd ul li{
+    overflow: hidden;
+    margin-bottom: 16px;
+    line-height: 30px;
+    border-bottom: 1px dashed #bebebe;
+}
+.main dl dd ul li a{
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 80%;
+    color: #333333;
+    float: left;
+}
+.main dl dd ul li a:hover{
+    color: #004b9d;
+}
+.main dl dd ul li span{
+    float: right;
+    color: #999999;
+    font-size: 14px;
+}
+
+.main .one{
+    margin-bottom: 40px;
+}
+.main .one dl{
+    height: 320px;
+    padding-top:18px;
+}
+.main .one dt,.main .one dd{
+    margin: 0 auto;
+    width: 360px;
+}
+.main .one dt{
+    height: 30px;
+    border-bottom: 2px solid #004b9d;
+    margin-bottom: 25px;
+}
+.main .dl_1{
+    float: left;
+}
+.main .one .right{
+    float: right;
+    background-color: #ffffff;
+    width: 790px;
+    overflow: hidden;
+}
+
+/*轮播*/
+.cl {
+    zoom: 1;
+}
+.frame {
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+    background: #FFF;
+}
+.title {
+    padding: 0 10px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+.slideshow {
+    clear: both;
+}
+.slideshow li {
+    position: relative;
+    overflow: hidden;
+}
+.slideshow span.title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-indent: 10px;
+    text-align: left;
+}
+.slideshow span.title{
+    background: rgba(0, 0, 0, 0.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #30000000, endColorstr = #30000000);
+    color: #FFF;
+    overflow: hidden;
+}
+.slidebar li {
+    float: left;
+    margin-right: 1px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c9c9c9;
+    color: #333333;
+    margin-left: 10px;
+}
+.slidebar li.on {
+    background: #004b9d;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = #50FFFFFF, endColorstr = #50FFFFFF);
+    color: #FFFFFF;
+}
+
+.frame {
+    background: none;
+    border: 0px solid #fff;
+    margin-bottom: 0px;
+}
+
+.slidebar {
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+}
+.slideshow SPAN.title {
+    text-indent: 0px;
+}
+.block {
+    margin: 0;
+    position: relative;
+}
+#frameHlicAe {
+    margin: 0px !important;
+    border: 0px !important;
+}
+.comiis_wrap960, .comiis_wrapad {
+    margin: 0 auto;
+    width: 100%;
+}
+.comiis_wrapad {
+    overflow: hidden;
+    height: 320px;
+    float: left;
+    padding: 18px 10px;
+    width: 380px;
+}
+.comiis_wrapad img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#slidesImgs li {
+    width: 100%;
+    height: 226px;
+    display: none;
+    text-align: center;
+}
+
+
+.main .dl_2{
+    float: right;
+}
+.main .dl_2 dd ul li{
+    border-bottom: 1px solid #bebebe;
+}
+.main .dl_2 dd ul li span{
+    color: #004b9d;
+}
+
+.main .two{
+    overflow: hidden;
+}
+.main .two dl dt{
+    background-color: #004b9d;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.main .two dl dt a{
+    color: #FFFFFF;
+}
+.main .two dd{
+    padding: 0 10px 20px 10px ;
+}
+.main .two li{
+    margin-bottom: 0;
+    line-height: 55px;
+}
+
+.main .dl_3{
+    float: left;
+}
+.main .dl_4{
+    margin-left: 30px;
+    float: left;
+}
+.main .dl_5{
+    float: right;
+}
+
+.three{
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.three div{
+    /*overflow: hidden;*/
+    width: 1200px;
+    margin: 0 auto;
+}
+.three dl{
+    float: left;
+    margin-right: 25px;
+    color: #FFFFFF;
+    line-height: 60px;
+    position: relative;
+
+}
+.three dl.last{
+    margin-right: 0;
+}
+.three dl dt{
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #004b9d;
+    background-repeat: no-repeat;
+    background-position: 25px center;
+}
+.three dl dt a{
+    color: #FFFFFF;
+    padding-left: 0px;
+	text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/index/links.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/links.png*/;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+}
+.three dl dd{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+    max-height: 175px;
+    overflow-y: auto;
+}
+.three dl:hover dd{
+    display: block;
+    background-color: #286ab2;
+}
+.three dl dd a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #94c3f6;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.three dl dd a.last{
+    border-bottom: 0;
+}
+.three dl dd a:hover{
+    background-color:#0766ce;
+}
+
+.three .dl_1 dt{
+     background-image: url("../images/index/6.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/6.png*/;
+ }
+.three .dl_2 dt{
+    background-image: url("../images/index/7.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/7.png*/;
+}
+.three .dl_3 dt{
+    background-image: url("../images/index/8.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/8.png*/;
+}
+.three .dl_4 dt{
+    background-image: url("../images/index/9.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/9.png*/;
+}
+.three .dl_5 dt{
+    background-image: url("../images/index/10.png")/*tpa=http://yjszs.cqjtu.edu.cn/images/index/10.png*/;
+}
+.three .dl_5 dt a,.three .dl_4 dt a,.three .dl_3 dt a{
+    background-image: none;
+}
+
+
+
+/*手机适配*/
+@media all and (max-width:1100px){
+
+    .banner{
+        width: 100%!important;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .main dl{
+        width: 100%;
+    }
+
+    .main .one .right{
+        width: 100%;
+        margin-top: 20px;
+        background-color:transparent;
+    }
+    .comiis_wrapad{
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	height: auto;
+    }
+    #slidesImgs li{
+        height: auto;
+    }
+    .slidebar{
+        bottom: 0;
+        margin-top: 0;
+    }
+
+    .main .dl_4{
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+    .three{
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .three div{
+        width: 100%;
+        height: 60px;
+    }
+
+    .three div dl{
+        margin-right: 0;
+        width: 20%;
+    }
+    .three dl dt{
+        padding-left: 0;
+        width: 100%;
+        padding-right: 0;
+    }
+
+}
+
+@media all and (max-width:800px){
+    .three dl dt{
+        background-position: 5% center;
+    }
+    .three dl dt a{
+        background-position: 95% center;
+    }
+}
+@media all and (max-width:500px){
+    .three div{
+        overflow: hidden;
+        height: auto;
+    }
+    .three div dl{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .three div dl.last{
+        margin-bottom: 0;
+    }
+    .three dl dt a{
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+    }
+    .three dl dd{
+        max-height: 200px;
+    }
+}
+
+
+
+
+.footer{
+	margin-top: 0;
+	background-color: #044b99;
+}
